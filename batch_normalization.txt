@@ -1,5 +1,5 @@
- A batch normalization layer looks at each batch as it comes in, first normalizing the batch with its own mean and standard deviation, and then also
- putting the data on a new scale with two trainable rescaling parameters. Batchnorm, in effect, performs a kind of coordinated rescaling of its inputs.
+A batch normalization layer looks at each batch as it comes in, first normalizing the batch with its own mean and standard deviation, and then also
+putting the data on a new scale with two trainable rescaling parameters. Batchnorm, in effect, performs a kind of coordinated rescaling of its inputs.
 
 Most often, batchnorm is added as an aid to the optimization process (though it can sometimes also help prediction performance).
 Models with batchnorm tend to need fewer epochs to complete training. Moreover, batchnorm can also fix various problems that can cause the training to get
